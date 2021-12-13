@@ -32,6 +32,6 @@ jobs:
       - name: Install surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ sana-pro1.surge.sh --token ${{secret.ABC}}
+        run: surge ./ sana-pro1.surge.sh --token ${{secrets.ABC}}
        
       
